@@ -1,0 +1,35 @@
+﻿Build started 10/13/2014 7:02:36 PM.
+     1>Project "C:\Users\Joey\Documents\Git Repo\GraphicsFinal\slender\slender\slender.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt glmain.cpp my_camera.cpp my_object.cpp slender.cpp snowball.cpp
+         snowball.cpp
+         slender.cpp
+         my_object.cpp
+         my_camera.cpp
+         glmain.cpp
+     1>c:\users\joey\documents\git repo\graphicsfinal\slender\slender\glmain.cpp(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\joey\documents\git repo\graphicsfinal\slender\slender\glmain.cpp(117): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\joey\documents\git repo\graphicsfinal\slender\slender\glmain.cpp(196): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\joey\documents\git repo\graphicsfinal\slender\slender\glmain.cpp(204): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\joey\documents\git repo\graphicsfinal\slender\slender\glmain.cpp(219): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(299) : see declaration of 'setbuf'
+     1>c:\users\joey\documents\git repo\graphicsfinal\slender\slender\glmain.cpp(1527): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\joey\documents\git repo\graphicsfinal\slender\slender\glmain.cpp(1599): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\joey\documents\git repo\graphicsfinal\slender\slender\glmain.cpp(1626): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\joey\documents\git repo\graphicsfinal\slender\slender\glmain.cpp(1775): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\joey\documents\git repo\graphicsfinal\slender\slender\glmain.cpp(1980): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joey\Documents\Git Repo\GraphicsFinal\slender\Debug\slender.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Joey\Documents\Git Repo\GraphicsFinal\slender\Debug\slender.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joey\Documents\Git Repo\GraphicsFinal\slender\Debug\slender.lib" /MACHINE:X86 Debug\glmain.obj
+         Debug\my_camera.obj
+         Debug\my_object.obj
+         Debug\slender.obj
+         Debug\snowball.obj
+         slender.vcxproj -> C:\Users\Joey\Documents\Git Repo\GraphicsFinal\slender\Debug\slender.exe
+     1>Done Building Project "C:\Users\Joey\Documents\Git Repo\GraphicsFinal\slender\slender\slender.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.53

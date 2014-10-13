@@ -1,0 +1,5 @@
+WASD - Move
+Left mouse - run
+Q - quit
+
+Collect the snowballs and dont die. There's 8.
